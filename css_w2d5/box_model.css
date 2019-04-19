@@ -1,0 +1,25 @@
+div {
+  height: 200px;
+  width:  200px;
+  padding: 50px;
+  border: solid 5px black;
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: #7fdbff;
+}
+
+
+div:nth-child(3) {
+  width: 400px;
+  min-height: 10px;
+}

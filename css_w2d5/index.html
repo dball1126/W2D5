@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>The Box Model</title>
+    <link rel="stylesheet" href="./box_model.css" />
+  </head>
+  <body>
+    <div id="first-div"></div>
+        
+    <div id="second-div"></div>
+
+    <div class="third-div">
+      <p>
+        Now let's talk images. Have you seen this video showing how much the New York Times' front page has changed since 1852?
+        Long story short, images are an important part of modern web design! We run into some interesting problems with them in
+        HTML/CSS.
+        
+        Let's get some cat pictures on the screen. Create a new div with class 'image-1-container' and give it a fixed width of
+        200px and a fixed height of 600px. Also give it a colored background so we can actually see it (you get to pick the
+        color this time). Inside of this new div, create an img tag that points to the file called cat.jpg that's in the assets
+        folder.
+        Note that the image spills out of the div. By default, images will want to render with the full glorious dimensions. How
+        can we combat this brash egotism? Tell the image to obey the constraints of its container by giving it a width of 100%.
+        NB: You may be wondering, "100% of what". From the results of this experiment, you should be able to infer that width
+        percentages are determined by the width of one's parent.
+      </p>
+    </div>
+  </body>
+</html>
+
